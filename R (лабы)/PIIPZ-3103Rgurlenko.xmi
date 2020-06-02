@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XMI verified="false" xmi.version="1.2" timestamp="2020-04-02T15:32:18" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+<XMI verified="false" xmi.version="1.2" timestamp="2020-04-16T16:47:50" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
  <XMI.header>
   <XMI.documentation>
    <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
@@ -38,7 +38,8 @@
         <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u6zCuv7JRtQVv" name="wchar_t"/>
         <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" elementReference="ue18zCKx7g0XA" isRoot="false" xmi.id="u2qwiPTQ6ng0X" name="int*"/>
         <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" elementReference="u6AyPA09fpmGD" isRoot="false" xmi.id="ui2qrfs5guww3" name="const Person&amp;"/>
-        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" elementReference="u5LnL8IMUva8O" isRoot="false" xmi.id="uSAbKHfGID6Pu" name="const Student&amp;"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" elementReference="u3I5j1vwfQAFK" isRoot="false" xmi.id="uSAbKHfGID6Pu" name="const Student&amp;"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u3I5j1vwfQAFK" name="undef"/>
        </UML:Namespace.ownedElement>
       </UML:Package>
       <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u6AyPA09fpmGD" comment="class Person&#xa;" name="Person">
@@ -325,7 +326,7 @@
   </UML:Model>
  </XMI.content>
  <XMI.extensions xmi.extender="umbrello">
-  <docsettings viewid="uHcO1vqcTA8UT" uniqueid="uDnOntJrddH1d" documentation=""/>
+  <docsettings viewid="uHcO1vqcTA8UT" uniqueid="urNcFfAH9FFOy" documentation=""/>
   <listview>
    <listitem open="1" type="800" id="Views">
     <listitem open="1" type="821" id="Component_View">
@@ -344,7 +345,6 @@
       <listitem open="0" type="829" id="uJP2TZGja6qgM"/>
       <listitem open="0" type="829" id="uZOIyzr0t3uAV"/>
       <listitem open="0" type="829" id="ui2qrfs5guww3"/>
-      <listitem open="0" type="829" id="uSAbKHfGID6Pu"/>
       <listitem open="0" type="829" id="uM0iKmmMQNTvG"/>
       <listitem open="0" type="829" id="ugCTsqjsoWRWF"/>
       <listitem open="0" type="829" id="ue18zCKx7g0XA"/>
@@ -357,6 +357,7 @@
       <listitem open="0" type="829" id="uHp6RnLMbUkJE"/>
       <listitem open="0" type="829" id="u8NbLUiY3QE3T"/>
       <listitem open="0" type="829" id="uqtOmrQJBzdvH"/>
+      <listitem open="0" type="829" id="u3I5j1vwfQAFK"/>
       <listitem open="0" type="829" id="upw0Be0E5d5mC"/>
       <listitem open="0" type="829" id="u8TPKfqjItbZB"/>
       <listitem open="0" type="829" id="uJzeLMR1438KN"/>
