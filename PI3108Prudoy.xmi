@@ -1,0 +1,1460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI verified="false" xmi.version="1.2" timestamp="2020-05-14T13:54:54" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.17</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.4" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isAbstract="false" isLeaf="false" xmi.id="m1" isRoot="false" name="UML Model">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="folder" name="folder"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="constructor" name="constructor"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="destructor" name="destructor"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="class-or-package" name="class-or-package"/>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Logical_View" name="Logical View">
+     <UML:Namespace.ownedElement>
+      <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Datatypes" name="Datatypes">
+       <UML:Namespace.ownedElement>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uGO0mfoZKJikr" name="char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uI6xlwzAxKfsg" name="int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u2LzQUd9vlgTx" name="float"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uYVl8EQFIXmnf" name="double"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uv8SxQVFm0EjI" name="bool"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u4zM3sBcFM4xk" name="string"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uZphPsoVX196Y" name="unsigned char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uGaUl7CMiPFew" name="signed char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uR4MsQoxY1vTC" name="unsigned int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uwzUBG3dIIf1Z" name="signed int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="umaQ5THZePc0k" name="short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ulw2sfYB8RkNP" name="unsigned short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uzPVO4ETSkGTx" name="signed short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uChqdYeDMRF9y" name="long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uw6oJfuUMQnBd" name="signed long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uf4dd670zDQtG" name="unsigned long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uST9r8ySx5wI1" name="long double"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uTSr2XkWZLj2e" name="wchar_t"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uHdZX4BbDcgvx" name="Автори*"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uyzAp3Kw9V6Cp" name="Книги*"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u2ecND4wQZ3Tq" comment="class Автори&#xa;class Автори&#xa;" name="Автори">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="ulKysySx72jC5" type="uI6xlwzAxKfsg" name="Код автора"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="ud9PbP2SLY5D1" type="u4zM3sBcFM4xk" name="Прізвище"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uegGVEXrTzVub" type="u4zM3sBcFM4xk" name="Ім'я"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="ulDDxxsIsayPn" type="u4zM3sBcFM4xk" name="По батькові"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uiusH7jedFKLM" type="uI6xlwzAxKfsg" name="Дата народження"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u3QC0g66rqnDR" type="u4zM3sBcFM4xk" name="Країна"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u4u78njM0L1Yt" type="uI6xlwzAxKfsg" name="Код_автора"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uP8dbKpTCc4gT" type="uR5mSTt8LHS5K" name="Ім_я"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uXmBuFpBK1WAQ" type="u7C0bXkAL7bv0" name="По_батькові"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uvJ2cELUU7vie" type="uI6xlwzAxKfsg" name="Дата_народження"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uMSyEwFGP8kBk" isOverride="false" name="Автори" isInline="false" isVirtual="false"/>
+        <UML:Operation stereotype="destructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u2oLYYJIXF9Uq" isOverride="false" name="~Автори" isInline="false" isVirtual="true"/>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uK96rOMFtRkjq" isOverride="false" name="setКод_автора" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="upKqhp5IxSwdW" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uO3H5rS5SK8mj" isOverride="false" name="getКод_автора" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="umFhb45AbNx6i" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uzcCIhqkAvSH6" isOverride="false" name="setПрізвище" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uQhW5NjrulCrw" type="uvacBvLDCwscQ" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ukEeFK10hVzvY" isOverride="false" name="getПрізвище" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uVGUmdOl4d8qM" type="uh9p1pVrrVFvS"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ulMNjblFxcIcM" isOverride="false" name="setІм_я" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u36uq2gbOLJJX" type="u5w3DfBZpcg64" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uNbbS4o5pRd5O" isOverride="false" name="getІм_я" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ulavsUenObJGO" type="ujJADckbjoUnN"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ulZkWj28anJrB" isOverride="false" name="setПо_батькові" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uZtlWBFliOkcS" type="u8meO67xikb74" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u1EZdwbRdOfgP" isOverride="false" name="getПо_батькові" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uEKR8RvFARMdZ" type="u1pus57DRMQC7"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u7XZVpusoXqCJ" isOverride="false" name="setДата_народження" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u0W58UzaqsZsZ" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ussD2JelCeDah" isOverride="false" name="getДата_народження" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uPYhs29wxtrkX" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uxbzm16r6xMZ0" isOverride="false" name="setКраїна" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uk8gfED7CD7Mx" type="u4OAUH4CTKjN2" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u75XXwKwum0q5" isOverride="false" name="getКраїна" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uiGGuZkIOokHP" type="uaNBdMANzrvXI"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="utAuXAt2rbIOv" isOverride="false" name="initAttributes" isInline="false" isVirtual="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uIRczhkXNZldd" comment="class Книги&#xa;class Книги&#xa;" name="Книги">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uuc5LcWWDa8XT" type="uI6xlwzAxKfsg" name="Код книги"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uqWbp0eqn2OK1" type="u4zM3sBcFM4xk" name="Тип видання"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uEtMoqgrvUOAi" type="u4zM3sBcFM4xk" name="Назва книги"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uBJWlyiuKhFKH" type="uI6xlwzAxKfsg" name="Код автора"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="urEFbWy5FgzPo" type="uI6xlwzAxKfsg" name="Вартість"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uTB49bTQ9Lyqp" type="uI6xlwzAxKfsg" name="Код_книги"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u4KqEbbmmtkKq" type="uBf3eNSNxrdgw" name="Тип_видання"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uaIqEWNonXGUf" type="uJZmVS8tzAHlR" name="Назва_книги"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uQ5AZldVyf2g2" type="uI6xlwzAxKfsg" name="Код_автора"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uPl3cAilU3tRt" isOverride="false" name="Книги" isInline="false" isVirtual="false"/>
+        <UML:Operation stereotype="destructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uNLqGLRAunxHb" isOverride="false" name="~Книги" isInline="false" isVirtual="true"/>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uERk4LwH0I6NN" isOverride="false" name="setКод_книги" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u24KCAdfCY9si" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uPzLNgx7Y1sUy" isOverride="false" name="getКод_книги" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u6h6hXSRzmJ4H" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ulbSAu59BZkdQ" isOverride="false" name="setТип_видання" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ujg66DIdq4Axy" type="uUQmU5KBaw796" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u6HxALh8qRBg1" isOverride="false" name="getТип_видання" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uUluN7CkMLAXY" type="uaRTD1O0UgzOj"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uGyfNwWZT4Fv9" isOverride="false" name="setНазва_книги" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uSKUcVJwtBx4i" type="u6G3K6Prpq117" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uaISwRYCdAYxp" isOverride="false" name="getНазва_книги" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uZovRwxcy7weC" type="u6m5mh0MUwZny"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uY2PqlAcJcH9x" isOverride="false" name="setКод_автора" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u6g64pFqWCNXE" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uA4CFu0AC5AHO" isOverride="false" name="getКод_автора" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ubajO3QeBj8Dj" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uHWmQBG6vxg9Z" isOverride="false" name="setВартість" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uRar6fHwO2sjs" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uA3GitTqSKpIG" isOverride="false" name="getВартість" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uvphPl5MRMsmo" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="unzata9pj5J2k" isOverride="false" name="initAttributes" isInline="false" isVirtual="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Association visibility="public" isSpecification="false" namespace="Logical_View" xmi.id="uDHVbTYMkKjhr" name="">
+       <UML:Association.connection>
+        <UML:AssociationEnd changeability="changeable" visibility="public" isNavigable="false" isSpecification="false" xmi.id="uqO8EbQuesykz" type="uIRczhkXNZldd" name="" aggregation="none"/>
+        <UML:AssociationEnd changeability="changeable" visibility="public" isNavigable="true" isSpecification="false" xmi.id="uPoDOShOwicFQ" type="u2ecND4wQZ3Tq" name="" aggregation="none"/>
+       </UML:Association.connection>
+      </UML:Association>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uGuMuNMRCpC0t" comment="class Замовники&#xa;class Замовники&#xa;" name="Замовники">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uXE3ZDtlutoot" type="uI6xlwzAxKfsg" name="Код замовника"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="ulBU8mQsl7CTe" type="u4zM3sBcFM4xk" name="Назва"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uVty6FfkYrMbp" type="u4zM3sBcFM4xk" name="Адреса"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uQ7jGyNXsiGez" type="uI6xlwzAxKfsg" name="Телефон"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uLbE08Xmbk9xm" type="u4zM3sBcFM4xk" name="Примітки"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uyIHPHYjYask8" type="uI6xlwzAxKfsg" name="Код_замовника"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ugYaNH1u44Evp" isOverride="false" name="Замовники" isInline="false" isVirtual="false"/>
+        <UML:Operation stereotype="destructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uRzgliuu3N7gW" isOverride="false" name="~Замовники" isInline="false" isVirtual="true"/>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ueg0rXwrAFoiE" isOverride="false" name="setКод_замовника" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uKFe1lBuPFZnb" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="unBTmM0uHwTZq" isOverride="false" name="getКод_замовника" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uuhAT0W0sv131" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uIk51IqPMds8d" isOverride="false" name="setНазва" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="upKTohg1NFuNM" type="uL6q8c4S1GVuO" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uEDMovoGEDlxJ" isOverride="false" name="getНазва" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ubUa56Y8JtKK1" type="unE4qLhayFnhu"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uQNhflEeDT1Hf" isOverride="false" name="setАдреса" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uOwmLFviNFqn0" type="u3l1uCFH3EBXO" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uvJbNYrYQQBGe" isOverride="false" name="getАдреса" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uuIFuuIPIGQn5" type="uUMKyOcThS8kF"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uMRJPe4eqLbSR" isOverride="false" name="setТелефон" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uSiBe0Vzp6Kqo" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uIfRy01up3NVM" isOverride="false" name="getТелефон" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uW5HppMp9S1m4" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uinSLj0m5EfmT" isOverride="false" name="setПримітки" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uyjaF45A0b1dx" type="uWdRmjV530WUe" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uosWNttrfpQ9p" isOverride="false" name="getПримітки" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u85ueY7zL12Ly" type="usYZ7BhPYcFRq"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKjcsV41ZKaQD" isOverride="false" name="initAttributes" isInline="false" isVirtual="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uG54I1LkC9YWS" comment="class Замовлення&#xa;class Замовлення&#xa;" name="Замовлення">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uMueEwvXehmSE" type="uI6xlwzAxKfsg" name="Код замовлення"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uVWBjDhBRRQrD" type="uI6xlwzAxKfsg" name="Код замовника"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uiXqcJ7jDFj0u" type="uI6xlwzAxKfsg" name="Дата замовлення"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uMwDgVD7XgX97" type="uI6xlwzAxKfsg" name="Код книги"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uLzZICsZWoxzF" type="uI6xlwzAxKfsg" name="Тираж"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u58elfTNr6pbt" type="uI6xlwzAxKfsg" name="Сплачено"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="ukpYmKSl3iEVH" type="uI6xlwzAxKfsg" name="Код_замовлення"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u93ER4reS7noW" type="uI6xlwzAxKfsg" name="Код_замовника"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uEP9zQhG0IRU5" type="uI6xlwzAxKfsg" name="Дата_замовлення"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uUMAXaeTVkbW9" type="uI6xlwzAxKfsg" name="Код_книги"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uh0I2qRCPo0b9" isOverride="false" name="Замовлення" isInline="false" isVirtual="false"/>
+        <UML:Operation stereotype="destructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="udcHQDDbzFzen" isOverride="false" name="~Замовлення" isInline="false" isVirtual="true"/>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uR3j7KcEdHUtU" isOverride="false" name="setКод_замовлення" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uLHoekr5bluVg" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uCim1L7UMZEVF" isOverride="false" name="getКод_замовлення" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u0Npyysg32r7O" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uAO2R3ehmon5b" isOverride="false" name="setКод_замовника" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uGFN6WO9ObsAQ" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uGmt9d5ncaCX8" isOverride="false" name="getКод_замовника" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uJjznaXWvxj73" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uios6A45YzKPk" isOverride="false" name="setДата_замовлення" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uQE9PMFHghsKx" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u2wEhYqxhz9PK" isOverride="false" name="getДата_замовлення" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uOSFAtOBDr7J2" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="umpyYyNTe8KsY" isOverride="false" name="setКод_книги" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="unTOfZLRVfcyG" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u7DbuyDAV1Ztd" isOverride="false" name="getКод_книги" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u4avwhKd24aBl" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uYEH2SERZ9N6f" isOverride="false" name="setТираж" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uVRMzcxIlYzyf" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uuRiCPBL4SOfi" isOverride="false" name="getТираж" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="utVXSQjfEIuIt" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u1FRG6ZdKvxLX" isOverride="false" name="setСплачено" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uUuCnCIMpEnvX" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uH1jIMlfn5X6P" isOverride="false" name="getСплачено" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uYUieD0Dy8QHv" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uUhBdtSa9KHp1" isOverride="false" name="initAttributes" isInline="false" isVirtual="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u4Sgi9EVVHf9X" comment="class Лікарі&#xa;" name="Лікарі">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uxhdNq6sY1zDN" type="uI6xlwzAxKfsg" name="№ ліцензії"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uAfW2tqrKHfdr" type="uI6xlwzAxKfsg" name="Дата отримання ліцензії"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uw8l9qqJ4GFOU" type="u4zM3sBcFM4xk" name="Прізвище"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="umWfduAgjxM3y" type="u4zM3sBcFM4xk" name="Ім'я"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="ulX85lUevRj5j" type="u4zM3sBcFM4xk" name="По батькові"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="ukyOKL2WVYvCV" type="uI6xlwzAxKfsg" name="Код посади"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u431h26rf5FVq" type="u4zM3sBcFM4xk" name="Адреса"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uqkdOSdPBgEbd" type="uI6xlwzAxKfsg" name="Телефон"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="upF1mW6mmVGbx" type="uI6xlwzAxKfsg" name="_ліцензії"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="ut2m38rmZfhjq" type="uI6xlwzAxKfsg" name="Дата_отримання_ліцензії"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uJx4gGpgE3mEr" type="uLJh6Iv8293DG" name="Ім_я"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uKliViuI6jMrj" type="uj1jpFO9DHJKy" name="По_батькові"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uByFjFFvM3ULz" type="uI6xlwzAxKfsg" name="Код_посади"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uyzhuloS4K29M" isOverride="false" name="Лікарі" isInline="false" isVirtual="false"/>
+        <UML:Operation stereotype="destructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uUd8KVeyspVlq" isOverride="false" name="~Лікарі" isInline="false" isVirtual="true"/>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="upYicxQr9J1si" isOverride="false" name="set_ліцензії" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ucSYx710S9MBx" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u7qKcllFMEvLM" isOverride="false" name="get_ліцензії" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uOdkAaLda3Npq" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uc2C6jxoSNZpj" isOverride="false" name="setДата_отримання_ліцензії" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uQP318tg0fA0M" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uRiEJhFFvKOwt" isOverride="false" name="getДата_отримання_ліцензії" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u18AtwVK4qeZY" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uJJLHhR45quVz" isOverride="false" name="setПрізвище" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u0czjIjgP4w6X" type="uvOIzXuQM2NL3" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u94E4G8zGyTIA" isOverride="false" name="getПрізвище" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uraDMBXLcSMfM" type="uVo0a8RN6qM9t"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uAZGMjFzuYrAk" isOverride="false" name="setІм_я" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uTne3qo0r6Jdb" type="uoBcTg6iMLsIW" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uvETwVg1eTFMy" isOverride="false" name="getІм_я" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uGefjWxVLXdGO" type="uHDJQLSXJlKiq"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uCvp6ARHhuThY" isOverride="false" name="setПо_батькові" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u10RYIrGgw9zX" type="uEsKVskLewJ42" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uIov7M9hhbP5f" isOverride="false" name="getПо_батькові" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uE0lZeOYQz3GU" type="uD80BNuwbbQcm"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uSQqVrUzlcxMh" isOverride="false" name="setКод_посади" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uNlueNgOd4ux6" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uBdgO866uzSoa" isOverride="false" name="getКод_посади" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="udJBTyfb5wP29" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="usdiLt5OFwnF3" isOverride="false" name="setАдреса" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uBDfnqYlzj7De" type="ut6EoKrOgOjDQ" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uSkZgKmfdisix" isOverride="false" name="getАдреса" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uiBNJXR9PMJmW" type="upiU7mpwTDwYp"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uIPYUGz5SL1hl" isOverride="false" name="setТелефон" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ukrCOReUmotad" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uRnRXuuL7GVAS" isOverride="false" name="getТелефон" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uY7GfEElc1pfD" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uMekLG2WHYw5a" isOverride="false" name="initAttributes" isInline="false" isVirtual="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uywgWQ2OtTlrL" comment="class Пацієнти&#xa;" name="Пацієнти">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="um4qSsuEk3npM" type="uI6xlwzAxKfsg" name="№ карточки"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u7PmSm4BUj4WI" type="u4zM3sBcFM4xk" name="Прізвище"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u7K3sCuMGrmig" type="u4zM3sBcFM4xk" name="Ім'я"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uY6Yre892iOLJ" type="u4zM3sBcFM4xk" name="По батькові"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uGkB7Bzz6v87A" type="u4zM3sBcFM4xk" name="Стать"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u7tJc4kkFS6xx" type="uI6xlwzAxKfsg" name="Дата народження"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="ubk9Da0pCpSaO" type="u4zM3sBcFM4xk" name="Адреса"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uUQurd04eqtq0" type="uI6xlwzAxKfsg" name="Телефон"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u5xGFOX4bO5UB" type="uI6xlwzAxKfsg" name="_карточки"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uDpyIVOGDId3f" type="ueYrGtmfTuAvC" name="Ім_я"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="ujqhC9YCeE9Be" type="uOAHcBatnygmK" name="По_батькові"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uoyR3ktc6Pf95" type="uI6xlwzAxKfsg" name="Дата_народження"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uyn1C4uPqQ7IH" isOverride="false" name="Пацієнти" isInline="false" isVirtual="false"/>
+        <UML:Operation stereotype="destructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uSBdsZzn6BGnO" isOverride="false" name="~Пацієнти" isInline="false" isVirtual="true"/>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uZ2YzxBRvkZYf" isOverride="false" name="set_карточки" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uD880mWaUcQWd" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="urgNxlF9y3Vcr" isOverride="false" name="get_карточки" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uGnDDAthzaKiT" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u7Wy7OvtwKVjy" isOverride="false" name="setПрізвище" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u2ke5cqN6JsBV" type="ucbztnv8EskUX" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uI1UJG6CL0RT6" isOverride="false" name="getПрізвище" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u6UHV9YTxQbsK" type="ucuSmowgh56BP"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u03ASUJajeIEX" isOverride="false" name="setІм_я" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uZC0gLyf8h9Sz" type="uDhsZn5snIYku" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uZDT4EXcofqJ6" isOverride="false" name="getІм_я" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ufReUhLGRqbru" type="ut7lK1FhbqhoA"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uXtZIm8JMQGjP" isOverride="false" name="setПо_батькові" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ufqfBqtgBxFwU" type="u3mDvT6qFaCIl" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uDlvv9G4plkYr" isOverride="false" name="getПо_батькові" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uCPTNdG3g8umV" type="uGgO4CxdnVyBv"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u79RCVFZQnPf9" isOverride="false" name="setСтать" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uVDX2gAfs9aQQ" type="ufMv4vrf7UVPX" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ubqGBJRomgxyC" isOverride="false" name="getСтать" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uYbztqyUER0Hr" type="uKnr8pQqJoeQ4"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uTgHcQKoHTExc" isOverride="false" name="setДата_народження" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="urtFQUoA2xGKR" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uWNxjwfQD5gU7" isOverride="false" name="getДата_народження" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="udS43HOT5G5Cg" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="um5786aPZmc6K" isOverride="false" name="setАдреса" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u3hrpfcTRf9xG" type="uUFb4FlCa0I0I" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uEVYr1gXjVbup" isOverride="false" name="getАдреса" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ul4xguqpEaPFR" type="ustYfHFYMHBwV"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="usHl0T0XUcEeo" isOverride="false" name="setТелефон" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ukfmFhCtaGUAP" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uYBDgwd84koiZ" isOverride="false" name="getТелефон" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ullK9qiPmfrMS" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uOjOsMpHjtQ0Z" isOverride="false" name="initAttributes" isInline="false" isVirtual="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class stereotype="class-or-package" visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u0cvU5CZRq6wn" name="std"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u2b0Wz8HwojoT" comment="class Виклики&#xa;" name="Виклики">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u0EHe91Y1XqZg" type="uI6xlwzAxKfsg" name="Код виклику"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uaUy3vw9AhrXj" type="uI6xlwzAxKfsg" name="№ карточки"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uF4Z7qKXACBVs" type="uI6xlwzAxKfsg" name="№ ліцензії"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uYL0mTiYCXcMM" type="uI6xlwzAxKfsg" name="дата виклику"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="usyqZzeezlP6Q" type="uGO0mfoZKJikr" name="Відмітка про відвідування"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uN4y4nIpsUTSV" type="u4zM3sBcFM4xk" name="Діагноз"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uRq6KY8WVSYhy" type="uI6xlwzAxKfsg" name="Код_виклику"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uVeqSnBNY6jah" type="uI6xlwzAxKfsg" name="_карточки"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uDRkIV4RAHaQ0" type="uI6xlwzAxKfsg" name="_ліцензії"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uCaGvwM0syhLo" type="uI6xlwzAxKfsg" name="дата_виклику"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="ue2GRhGFr3P9a" type="uGO0mfoZKJikr" name="Відмітка_про_відвідування"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uigE2rcaY5eHG" isOverride="false" name="Виклики" isInline="false" isVirtual="false"/>
+        <UML:Operation stereotype="destructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ufOd0Kw4DoIJG" isOverride="false" name="~Виклики" isInline="false" isVirtual="true"/>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uq9cZ3Bv7NDuC" isOverride="false" name="setКод_виклику" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uXTouCYPJ3SM1" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uHN0xjaEV6Csf" isOverride="false" name="getКод_виклику" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uxSAQuVfI9mhN" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ukj4UPoAatwVH" isOverride="false" name="set_карточки" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ukyDBxTUcTrAN" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uxrJ4fYsJXzW1" isOverride="false" name="get_карточки" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uVBBx65ouMPjv" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uPdaEtfnC1w0j" isOverride="false" name="set_ліцензії" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uAbWw9654O4Ts" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="upNUBiE1Cf394" isOverride="false" name="get_ліцензії" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uUav9s5kFFDvy" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u15xAdQqe9z0l" isOverride="false" name="setДата_виклику" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uPAUXmpa6aoib" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u1MVU37UkH3le" isOverride="false" name="getДата_виклику" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uH9hF1LIfawY5" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uVihaXyrVFX65" isOverride="false" name="setВідмітка_про_відвідування" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uF0qAqwxERcX5" type="uGO0mfoZKJikr" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u5Z5BvCRTPg9b" isOverride="false" name="getВідмітка_про_відвідування" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ueAhQ57D2y09i" type="uGO0mfoZKJikr"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="utnOOD8cHlUXT" isOverride="false" name="setДіагноз" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uOjU9PiJSquNT" type="u3YNWIS0bKumN" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uixDRJ7iXhZKZ" isOverride="false" name="getДіагноз" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="umfHzTIW9bnKI" type="uFPEHvijdjHtZ"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ucD292Ip167fG" isOverride="false" name="initAttributes" isInline="false" isVirtual="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uhA0xNsnRFuA9" comment="class Посади&#xa;" name="Посади">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="umVPhGaysqXRB" type="uI6xlwzAxKfsg" name="Код посади"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="ucwzyYE2JAPyN" type="u4zM3sBcFM4xk" name="Назва"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="upeE9nfPyqXJ5" type="uI6xlwzAxKfsg" name="Код_посади"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uDW8K0jEcBnFO" isOverride="false" name="Посади" isInline="false" isVirtual="false"/>
+        <UML:Operation stereotype="destructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uFAjT0EYsxrhc" isOverride="false" name="~Посади" isInline="false" isVirtual="true"/>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uuQY0ykkRYHI6" isOverride="false" name="setКод_посади" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uqTk3N3j7Am28" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uvSJRkorgehoj" isOverride="false" name="getКод_посади" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u6YoThSEk4D2u" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uHH44v1faBaud" isOverride="false" name="setНазва" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uPgyops3EbG9A" type="unXNkD62RiDdU" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uuFKA7HKzmjYL" isOverride="false" name="getНазва" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="umZ05KbOAQjKR" type="u7HeCzPu7v0fc"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uCnWLHL28PFeU" isOverride="false" name="initAttributes" isInline="false" isVirtual="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uZ99g6KpnCoJ4" comment="class Співробітники&#xa;" name="Співробітники">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uvyFCIljRzAdN" type="uI6xlwzAxKfsg" name="Код співробітника"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uXTUgxzwKkDgX" type="u4zM3sBcFM4xk" name="Прізвище"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uFt5D7XkDxFgv" type="u4zM3sBcFM4xk" name="Ім'я"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uKSYToh6LePwU" type="u4zM3sBcFM4xk" name="По батькові"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uue3b05UX282T" type="u4zM3sBcFM4xk" name="Адреса"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="ubLAfLKmCRqaO" type="uI6xlwzAxKfsg" name="Код кваліфікації"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uro6NiSmz2snW" type="uI6xlwzAxKfsg" name="Код посади"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uefT26idwx5GP" type="uI6xlwzAxKfsg" name="Дата прийому на роботу"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uu1OMqogLTlvu" type="uI6xlwzAxKfsg" name="№ відділу"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u9V5vL7NN6aMa" type="u4zM3sBcFM4xk" name="Освіта"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uhBNfI81cEIOs" type="uI6xlwzAxKfsg" name="Код_співробітника"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uznuzWWGXSEMT" type="uoR4UJIJfxIqQ" name="Ім_я"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uahFIz52Vg8Qo" type="uEN7fHHCG3WkC" name="По_батькові"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uZ8ASx3JYISnf" type="uI6xlwzAxKfsg" name="Код_кваліфікації"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uZHlcMkjjgdku" type="uI6xlwzAxKfsg" name="Код_посади"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u1xPEB1mA3S2o" type="uI6xlwzAxKfsg" name="Дата_прийому_на_роботу"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="ubMRxASSQ06T2" type="uI6xlwzAxKfsg" name="_відділу"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u1ntvVuvJvoYc" isOverride="false" name="Співробітники" isInline="false" isVirtual="false"/>
+        <UML:Operation stereotype="destructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ub5OB7zgWzXLV" isOverride="false" name="~Співробітники" isInline="false" isVirtual="true"/>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="umjrTuQHSfAXV" isOverride="false" name="setКод_співробітника" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uFFbxakGfW0Hj" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="utXfjh49TgacT" isOverride="false" name="getКод_співробітника" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uVyltih6mmbYZ" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uhMpPmzFJf4pr" isOverride="false" name="setПрізвище" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uTcGSqWyK8W4J" type="ufaBAWx4BXFFx" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u8RWTHMWOEnqo" isOverride="false" name="getПрізвище" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uEBRAmkzTv1BZ" type="uscv9uVPm32JL"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="usW8wKzvGNO01" isOverride="false" name="setІм_я" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uVYB5i7kBe3b5" type="uLLIMA1gm1ztK" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ue8Y7ewn1mwqU" isOverride="false" name="getІм_я" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uqo5Jqzd5BwJw" type="u2augb1gOhNWs"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uqysQVkNJLhFY" isOverride="false" name="setПо_батькові" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uglxihp52ebVd" type="u1Z4Gn8NETNTH" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uRu8HpJ00C7fB" isOverride="false" name="getПо_батькові" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ufLjWDQ46PEBi" type="uh7r1QI3BNGVK"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ullhAjuWDqDek" isOverride="false" name="setАдреса" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="umv8LPnZiPvQl" type="urmv1CMpvrKxN" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u5JzDgd5UiCW1" isOverride="false" name="getАдреса" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ujKei04zBNwvR" type="uQrd0qlsR08pU"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uD5CPceAKK2lA" isOverride="false" name="setКод_кваліфікації" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uQtyoAzyCSml2" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="usvGkac1vPG6D" isOverride="false" name="getКод_кваліфікації" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uawbrkaB6eb9y" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uULYHOlWErApx" isOverride="false" name="setКод_посади" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uOMJ2GkZkk5vQ" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uxC14r1fgj4bX" isOverride="false" name="getКод_посади" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u8h1lEzMsmMpU" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uJ81KcmA5nTYw" isOverride="false" name="setДата_прийому_на_роботу" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ugRiaASPv36Cs" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="usSC6SZtm3vUx" isOverride="false" name="getДата_прийому_на_роботу" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uvQEH9TA5Suqc" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u6FKuEEvBd8Jt" isOverride="false" name="set_відділу" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uRanK57CBh8NG" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="urGOWL91WKAMc" isOverride="false" name="get_відділу" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u63ParVIz1FAG" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uR9R6fEpcoJRq" isOverride="false" name="setОсвіта" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uTXwHh517isFw" type="ui53SgrCfmkIo" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uOidEPXbBjqDp" isOverride="false" name="getОсвіта" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="umJKFz8DRfpFs" type="uyQ5Jhg5Tr97h"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uYKOHrk5MbR1M" isOverride="false" name="initAttributes" isInline="false" isVirtual="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uvrf5FYdhlWlN" comment="class Кваліфікація&#xa;" name="Кваліфікація">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="utAsnPFRsj1js" type="uI6xlwzAxKfsg" name="Код кваліфікації"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u9lWIdCx9bpoB" type="u4zM3sBcFM4xk" name="Назва кваліфікації"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u7rLHKktlBg4t" type="uI6xlwzAxKfsg" name="Код_кваліфікації"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uWJhp138TCMgy" type="uGHSu5V6eMPeD" name="Назва_кваліфікації"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uV4Mqx5UrGtB0" isOverride="false" name="Кваліфікація" isInline="false" isVirtual="false"/>
+        <UML:Operation stereotype="destructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uxoUYAT6YP51K" isOverride="false" name="~Кваліфікація" isInline="false" isVirtual="true"/>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ui6SIENBxFyuM" isOverride="false" name="setКод_кваліфікації" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uvZKob2ivAOJ2" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uxoy6SaVUaTfe" isOverride="false" name="getКод_кваліфікації" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uqKnBRf4JbAl3" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uIgPBmK6iRRwn" isOverride="false" name="setНазва_кваліфікації" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="udWzfyLOujWso" type="uzOWusAdzh8CO" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uVDSOsimqu1XO" isOverride="false" name="getНазва_кваліфікації" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uxZt8Su3Q38LD" type="uHhuGwrLvSvdg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uV8eQNg27nISp" isOverride="false" name="initAttributes" isInline="false" isVirtual="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uoAR6KftLBFdR" name="Посада">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u3zy9u5eMIpUo" type="uI6xlwzAxKfsg" name="Код посади"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="unYqK1T5skEwe" type="u4zM3sBcFM4xk" name="Назва посади"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uL38laStBbeLG" type="uI6xlwzAxKfsg" name="Мінімальний оклад"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="umVEIfho5JLiY" type="uI6xlwzAxKfsg" name="Максимальний оклад"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uVnuhP1baI9eX" type="uI6xlwzAxKfsg" name="Код_посади"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="u7bsUoInMX5ug" type="uSZ8KYvnzo384" name="Назва_посади"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uFqwOAu01TTuw" type="uI6xlwzAxKfsg" name="Мінімальний_оклад"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uvbr1fAtAwXfb" type="uI6xlwzAxKfsg" name="Максимальний_оклад"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ulufDm5e4AVO1" isOverride="false" name="Посада" isInline="false" isVirtual="false"/>
+        <UML:Operation stereotype="destructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="um3csyVV8k7gr" isOverride="false" name="~Посада" isInline="false" isVirtual="true"/>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uaAW9NRCmQ1IE" isOverride="false" name="setКод_посади" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="urNhGfQGIsLmG" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u8AB6kNqhPIBr" isOverride="false" name="getКод_посади" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ujo70y8B6aUfg" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uQyblGC6g0qos" isOverride="false" name="setНазва_посади" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uy9JWrsg33BvM" type="uEOHrcGHCeJQG" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uFNo1cNM4EXf2" isOverride="false" name="getНазва_посади" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uxIwRz0RCgpgN" type="ud3sSMkngyS1b"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uFvwJOUexJbGy" isOverride="false" name="setМінімальний_оклад" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uugjJ3zG2uo0G" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u5O0tl8Vhkbss" isOverride="false" name="getМінімальний_оклад" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uf5jBYNJEbogT" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uo3gdVdKFoD2f" isOverride="false" name="setМаксимальний_оклад" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uQAsFVy3XiRq9" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uHC5EV6SMqx2i" isOverride="false" name="getМаксимальний_оклад" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uLgHx2KfMqxJZ" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uLY7E1JIYSOiX" isOverride="false" name="initAttributes" isInline="false" isVirtual="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u3J26EotYGcTO" comment="class Відділи&#xa;" name="Відділи">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uOsfNdJm6Lr6M" type="uI6xlwzAxKfsg" name="№ відділу"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uRshEaX6qAPWh" type="u4zM3sBcFM4xk" name="Назва відділу"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uSX4xQ9l5Zg7f" type="uI6xlwzAxKfsg" name="Максимальне число робітників"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="udDX33EsVHKxX" type="uI6xlwzAxKfsg" name="_відділу"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uljY4F9SRjqE4" type="uZG6NLdrzC9Un" name="Назва_відділу"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uTDicFTxE0ZRQ" type="uI6xlwzAxKfsg" name="Максимальне_число_робітників"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uC8PuzrXAyfLz" isOverride="false" name="Відділи" isInline="false" isVirtual="false"/>
+        <UML:Operation stereotype="destructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ungbPUtZxxiZ2" isOverride="false" name="~Відділи" isInline="false" isVirtual="true"/>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u1xCR0azr4q99" isOverride="false" name="set_відділу" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ucfi6KSQjh9kP" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uLLhRVm3LUArT" isOverride="false" name="get_відділу" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uToiKobkeWTB7" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uqQaL4LirdVEx" isOverride="false" name="setНазва_відділу" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uAfgDTJs7zqYW" type="unRch5ViXsdx2" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uK4Q8O6aw5yRk" isOverride="false" name="getНазва_відділу" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uPKwqBW3hnWMq" type="uqQYvXl6r5m8S"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uE67LdkVC66ah" isOverride="false" name="setМаксимальне_число_робітників" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uFPEGH0gBqeba" type="uI6xlwzAxKfsg" value="" name="new_var"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u6ThemNfoxadw" isOverride="false" name="getМаксимальне_число_робітників" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uC7quQqKopEzp" type="uI6xlwzAxKfsg"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="private" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ufZI8JMIkHs0T" isOverride="false" name="initAttributes" isInline="false" isVirtual="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams resolution="96">
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="Покупка книжок через інтернет" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="786" canvaswidth="493" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="ufea8gz6fVqM4" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
+        <widgets>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-1091" showattsigs="601" showstereotype="1" y="65" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uLAWacJjDtBPq" width="222" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="u2ecND4wQZ3Tq" autoresize="0" showscope="1" height="390" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-825" showattsigs="601" showstereotype="1" y="71" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="ujh2leNuoZPbb" width="227" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uIRczhkXNZldd" autoresize="1" showscope="1" height="345" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-1090" showattsigs="601" showstereotype="1" y="476" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="u2n1LUXLj70va" width="204" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uGuMuNMRCpC0t" autoresize="1" showscope="1" height="300" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-816" showattsigs="601" showstereotype="1" y="461" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uYCJCuzsR4oYr" width="214" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uG54I1LkC9YWS" autoresize="1" showscope="1" height="390" showopsigs="601"/>
+        </widgets>
+        <messages/>
+        <associations/>
+       </diagram>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="Замовлення на виклик лікаря" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="952.13" canvaswidth="523.388" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="70.35423687022274" xmi.id="uzmONq4pTgMp6" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
+        <widgets>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="1124.84" showattsigs="601" showstereotype="1" y="2112.88" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uISqjllfCXP38" width="257" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="u4Sgi9EVVHf9X" autoresize="1" showscope="1" height="495" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="1426.23" showattsigs="601" showstereotype="1" y="2121.27" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uiXlsD8mI2ZnC" width="222" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uywgWQ2OtTlrL" autoresize="1" showscope="1" height="480" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="1128.39" showattsigs="601" showstereotype="1" y="2660.01" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="u6IPpowrMeW9u" width="275" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="u2b0Wz8HwojoT" autoresize="1" showscope="1" height="405" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="1440.34" showattsigs="601" showstereotype="1" y="2662.14" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uF4pimfZC71dZ" width="186" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uhA0xNsnRFuA9" autoresize="1" showscope="1" height="165" showopsigs="601"/>
+        </widgets>
+        <messages/>
+        <associations/>
+       </diagram>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="Відділ кадрів" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="950" canvaswidth="594" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="86" xmi.id="urWRPrlmQEe2M" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
+        <widgets>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-349" showattsigs="601" showstereotype="1" y="62" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uW06cEcOwsoxn" width="259" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uZ99g6KpnCoJ4" autoresize="1" showscope="1" height="615" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-103" showattsigs="601" showstereotype="1" y="-270" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uoP56ryLIvbEc" width="260" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uvrf5FYdhlWlN" autoresize="1" showscope="1" height="180" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-347" showattsigs="601" showstereotype="1" y="-273" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uA7U9d8N0DwMB" width="238" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uoAR6KftLBFdR" autoresize="1" showscope="1" height="300" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-50" showattsigs="601" showstereotype="1" y="0" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="u1EWGPED7kFep" width="295" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="u3J26EotYGcTO" autoresize="1" showscope="1" height="240" showopsigs="601"/>
+        </widgets>
+        <messages/>
+        <associations/>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Use_Case_View" name="Use Case View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Component_View" name="Component View">
+     <UML:Namespace.ownedElement>
+      <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Component_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uwaj7nvSxqO5b" name="C:/Users/irudo/Desktop/LUMPOVA">
+       <UML:Namespace.ownedElement>
+        <UML:Artifact visibility="public" isSpecification="false" namespace="uwaj7nvSxqO5b" drawas="1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uqgMLQTvvScKX" name="Автори.h"/>
+        <UML:Artifact visibility="public" isSpecification="false" namespace="uwaj7nvSxqO5b" drawas="1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uT6xYN3cabE58" name="Замовлення.h"/>
+        <UML:Artifact visibility="public" isSpecification="false" namespace="uwaj7nvSxqO5b" drawas="1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uHjsz2nctuOpW" name="Замовники.h"/>
+        <UML:Artifact visibility="public" isSpecification="false" namespace="uwaj7nvSxqO5b" drawas="1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="up0yTZg1ydHxV" name="Книги.h"/>
+        <UML:Artifact visibility="public" isSpecification="false" namespace="uwaj7nvSxqO5b" drawas="1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uq3kxuCaNjZM6" name="Виклики.h"/>
+        <UML:Artifact visibility="public" isSpecification="false" namespace="uwaj7nvSxqO5b" drawas="1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="upVMPRMKmkrDa" name="Відділи.h"/>
+        <UML:Artifact visibility="public" isSpecification="false" namespace="uwaj7nvSxqO5b" drawas="1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uDVAYdjTTGGej" name="Кваліфікація.h"/>
+        <UML:Artifact visibility="public" isSpecification="false" namespace="uwaj7nvSxqO5b" drawas="1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uMOIhvYcuAy7I" name="Лікарі.h"/>
+        <UML:Artifact visibility="public" isSpecification="false" namespace="uwaj7nvSxqO5b" drawas="1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ujOKjhmtXFG2q" name="Пацієнти.h"/>
+        <UML:Artifact visibility="public" isSpecification="false" namespace="uwaj7nvSxqO5b" drawas="1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u3wTaoND6w2Kv" name="Посада.h"/>
+        <UML:Artifact visibility="public" isSpecification="false" namespace="uwaj7nvSxqO5b" drawas="1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uvAlxoQCDka6I" name="Посади.h"/>
+        <UML:Artifact visibility="public" isSpecification="false" namespace="uwaj7nvSxqO5b" drawas="1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ur0fsQrVZscVJ" name="Співробітники.h"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+     </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Deployment_View" name="Deployment View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Entity_Relationship_Model" name="Entity Relationship Model">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="ufea8gz6fVqM4" uniqueid="uYKOHrk5MbR1M" documentation=""/>
+  <listview>
+   <listitem open="1" type="800" id="Views">
+    <listitem open="1" type="821" id="Component_View">
+     <listitem open="0" type="820" id="uwaj7nvSxqO5b">
+      <listitem open="0" type="824" id="uqgMLQTvvScKX"/>
+      <listitem open="0" type="824" id="uq3kxuCaNjZM6"/>
+      <listitem open="0" type="824" id="upVMPRMKmkrDa"/>
+      <listitem open="0" type="824" id="uT6xYN3cabE58"/>
+      <listitem open="0" type="824" id="uHjsz2nctuOpW"/>
+      <listitem open="0" type="824" id="uDVAYdjTTGGej"/>
+      <listitem open="0" type="824" id="up0yTZg1ydHxV"/>
+      <listitem open="0" type="824" id="uMOIhvYcuAy7I"/>
+      <listitem open="0" type="824" id="ujOKjhmtXFG2q"/>
+      <listitem open="0" type="824" id="u3wTaoND6w2Kv"/>
+      <listitem open="0" type="824" id="uvAlxoQCDka6I"/>
+      <listitem open="0" type="824" id="ur0fsQrVZscVJ"/>
+     </listitem>
+    </listitem>
+    <listitem open="1" type="827" id="Deployment_View"/>
+    <listitem open="1" type="836" id="Entity_Relationship_Model"/>
+    <listitem open="1" type="801" id="Logical_View">
+     <listitem open="0" type="830" id="Datatypes">
+      <listitem open="0" type="829" id="uv8SxQVFm0EjI"/>
+      <listitem open="0" type="829" id="uGO0mfoZKJikr"/>
+      <listitem open="0" type="829" id="uYVl8EQFIXmnf"/>
+      <listitem open="0" type="829" id="u2LzQUd9vlgTx"/>
+      <listitem open="0" type="829" id="uI6xlwzAxKfsg"/>
+      <listitem open="0" type="829" id="uST9r8ySx5wI1"/>
+      <listitem open="0" type="829" id="uChqdYeDMRF9y"/>
+      <listitem open="0" type="829" id="umaQ5THZePc0k"/>
+      <listitem open="0" type="829" id="uGaUl7CMiPFew"/>
+      <listitem open="0" type="829" id="uwzUBG3dIIf1Z"/>
+      <listitem open="0" type="829" id="uw6oJfuUMQnBd"/>
+      <listitem open="0" type="829" id="uzPVO4ETSkGTx"/>
+      <listitem open="0" type="829" id="u4zM3sBcFM4xk"/>
+      <listitem open="0" type="829" id="uZphPsoVX196Y"/>
+      <listitem open="0" type="829" id="uR4MsQoxY1vTC"/>
+      <listitem open="0" type="829" id="uf4dd670zDQtG"/>
+      <listitem open="0" type="829" id="ulw2sfYB8RkNP"/>
+      <listitem open="0" type="829" id="uTSr2XkWZLj2e"/>
+      <listitem open="1" type="829" id="uHdZX4BbDcgvx"/>
+      <listitem open="1" type="829" id="uyzAp3Kw9V6Cp"/>
+     </listitem>
+     <listitem open="0" type="813" id="u0cvU5CZRq6wn">
+      <listitem open="0" type="813" id="uG9OjULjTVne3"/>
+      <listitem open="0" type="813" id="uR5mSTt8LHS5K"/>
+      <listitem open="0" type="813" id="u7C0bXkAL7bv0"/>
+      <listitem open="0" type="813" id="uAXaJvZdDTzLg"/>
+      <listitem open="0" type="813" id="uvacBvLDCwscQ"/>
+      <listitem open="0" type="813" id="uh9p1pVrrVFvS"/>
+      <listitem open="0" type="813" id="u5w3DfBZpcg64"/>
+      <listitem open="0" type="813" id="ujJADckbjoUnN"/>
+      <listitem open="0" type="813" id="u8meO67xikb74"/>
+      <listitem open="0" type="813" id="u1pus57DRMQC7"/>
+      <listitem open="0" type="813" id="u4OAUH4CTKjN2"/>
+      <listitem open="0" type="813" id="uaNBdMANzrvXI"/>
+      <listitem open="0" type="813" id="u11C6SIvWYSgd"/>
+      <listitem open="0" type="813" id="uu41x2n03P7Q3"/>
+      <listitem open="0" type="813" id="uvn74bbw14Lza"/>
+      <listitem open="0" type="813" id="uL6q8c4S1GVuO"/>
+      <listitem open="0" type="813" id="unE4qLhayFnhu"/>
+      <listitem open="0" type="813" id="u3l1uCFH3EBXO"/>
+      <listitem open="0" type="813" id="uUMKyOcThS8kF"/>
+      <listitem open="0" type="813" id="uWdRmjV530WUe"/>
+      <listitem open="0" type="813" id="usYZ7BhPYcFRq"/>
+      <listitem open="0" type="813" id="uBf3eNSNxrdgw"/>
+      <listitem open="0" type="813" id="uJZmVS8tzAHlR"/>
+      <listitem open="0" type="813" id="uUQmU5KBaw796"/>
+      <listitem open="0" type="813" id="uaRTD1O0UgzOj"/>
+      <listitem open="0" type="813" id="u6G3K6Prpq117"/>
+      <listitem open="0" type="813" id="u6m5mh0MUwZny"/>
+      <listitem open="0" type="813" id="uispA8ExyANhJ"/>
+      <listitem open="0" type="813" id="uWd42too2kF7N"/>
+      <listitem open="0" type="813" id="uKBK51Be1Nfhj"/>
+      <listitem open="0" type="813" id="utzCEH0xiwB2n"/>
+      <listitem open="0" type="813" id="unIOwS4aSb7aa"/>
+      <listitem open="0" type="813" id="uolvjWcNxPeJL"/>
+      <listitem open="0" type="813" id="ud56HO0Sh5x7l"/>
+      <listitem open="0" type="813" id="u9HD13HLVQYfn"/>
+      <listitem open="0" type="813" id="uoolEBkC2JIYf"/>
+      <listitem open="0" type="813" id="u5AAdu3HFBKmg"/>
+      <listitem open="0" type="813" id="uUqW2v8bay2LK"/>
+      <listitem open="0" type="813" id="uBQn7acmYD6ar"/>
+      <listitem open="0" type="813" id="ugmZ8dUC0SDXx"/>
+      <listitem open="0" type="813" id="uTYy0nwvQdsdJ"/>
+      <listitem open="0" type="813" id="uu2pJGarsoYBh"/>
+      <listitem open="0" type="813" id="uGgHXHmxcEJS2"/>
+      <listitem open="0" type="813" id="u7027KNJTYvEm"/>
+      <listitem open="0" type="813" id="uPdDUo11tCSa9"/>
+      <listitem open="0" type="813" id="uNf0aqqI8iIDm"/>
+      <listitem open="0" type="813" id="uyDW4sMk3qObw"/>
+      <listitem open="0" type="813" id="ukbXC4JFCAijY"/>
+      <listitem open="0" type="813" id="u80VvkkPVCtLZ"/>
+      <listitem open="0" type="813" id="ujG8enR7swSp5"/>
+      <listitem open="0" type="813" id="uBnqx8SYSQFwa"/>
+      <listitem open="0" type="813" id="uxXSevKu8zrgI"/>
+      <listitem open="0" type="813" id="umkOgDlR1hF58"/>
+      <listitem open="0" type="813" id="uQZDah8ZQkvE1"/>
+      <listitem open="0" type="813" id="u3YNWIS0bKumN"/>
+      <listitem open="0" type="813" id="uFPEHvijdjHtZ"/>
+      <listitem open="0" type="813" id="uZG6NLdrzC9Un"/>
+      <listitem open="0" type="813" id="unRch5ViXsdx2"/>
+      <listitem open="0" type="813" id="uqQYvXl6r5m8S"/>
+      <listitem open="0" type="813" id="uEYZMTyENKUKy"/>
+      <listitem open="0" type="813" id="ulRRg1H4cIL98"/>
+      <listitem open="0" type="813" id="u38wj5i3onu0n"/>
+      <listitem open="0" type="813" id="uk3naIJVlq75c"/>
+      <listitem open="0" type="813" id="uKtuNwL8Fymdr"/>
+      <listitem open="0" type="813" id="u86hwuyyBiMl6"/>
+      <listitem open="0" type="813" id="u44hRx99NxvMs"/>
+      <listitem open="0" type="813" id="uXNwz3kPfoltV"/>
+      <listitem open="0" type="813" id="uc99OsFKV5o8O"/>
+      <listitem open="0" type="813" id="uInjv8p8ARKy1"/>
+      <listitem open="0" type="813" id="uHCUilZidcajE"/>
+      <listitem open="0" type="813" id="ugroZWvhaMMTe"/>
+      <listitem open="0" type="813" id="uSqzPRos5mTJZ"/>
+      <listitem open="0" type="813" id="ucwXxUin2Ybt9"/>
+      <listitem open="0" type="813" id="uRlsBoN6aut7b"/>
+      <listitem open="0" type="813" id="uGHSu5V6eMPeD"/>
+      <listitem open="0" type="813" id="uzOWusAdzh8CO"/>
+      <listitem open="0" type="813" id="uHhuGwrLvSvdg"/>
+      <listitem open="0" type="813" id="uV47vbQZmXegB"/>
+      <listitem open="0" type="813" id="uYzMnjQDBYuZv"/>
+      <listitem open="0" type="813" id="uzuVETMYyVHYA"/>
+      <listitem open="0" type="813" id="uECV6nbx1JSKY"/>
+      <listitem open="0" type="813" id="uSi1Gv49WxFDe"/>
+      <listitem open="0" type="813" id="uDOEuEJ4DVELA"/>
+      <listitem open="0" type="813" id="uLmZx4wJuws6w"/>
+      <listitem open="0" type="813" id="uZJLCzTe0ZDsn"/>
+      <listitem open="0" type="813" id="uV35IlppSw8Qh"/>
+      <listitem open="0" type="813" id="uUAyV2LZIwI2K"/>
+      <listitem open="0" type="813" id="uPmynKuRu4Z6J"/>
+      <listitem open="0" type="813" id="uhZqxzk6pp2Ua"/>
+      <listitem open="0" type="813" id="uEXjm0qQK6yuL"/>
+      <listitem open="0" type="813" id="uXNbBOGof0L3Y"/>
+      <listitem open="0" type="813" id="uHxMOduJMRjUW"/>
+      <listitem open="0" type="813" id="uQK8asdiDhQzi"/>
+      <listitem open="0" type="813" id="uQmDhsgPCAWUV"/>
+      <listitem open="0" type="813" id="uLJh6Iv8293DG"/>
+      <listitem open="0" type="813" id="uj1jpFO9DHJKy"/>
+      <listitem open="0" type="813" id="uT2awTHnBo9BS"/>
+      <listitem open="0" type="813" id="uvOIzXuQM2NL3"/>
+      <listitem open="0" type="813" id="uVo0a8RN6qM9t"/>
+      <listitem open="0" type="813" id="uoBcTg6iMLsIW"/>
+      <listitem open="0" type="813" id="uHDJQLSXJlKiq"/>
+      <listitem open="0" type="813" id="uEsKVskLewJ42"/>
+      <listitem open="0" type="813" id="uD80BNuwbbQcm"/>
+      <listitem open="0" type="813" id="ut6EoKrOgOjDQ"/>
+      <listitem open="0" type="813" id="upiU7mpwTDwYp"/>
+      <listitem open="0" type="813" id="uATQT5FDtR2pS"/>
+      <listitem open="0" type="813" id="ueYrGtmfTuAvC"/>
+      <listitem open="0" type="813" id="uOAHcBatnygmK"/>
+      <listitem open="0" type="813" id="uh3AbFeYlLTrx"/>
+      <listitem open="0" type="813" id="utcXqGHYFSH6C"/>
+      <listitem open="0" type="813" id="ucbztnv8EskUX"/>
+      <listitem open="0" type="813" id="ucuSmowgh56BP"/>
+      <listitem open="0" type="813" id="uDhsZn5snIYku"/>
+      <listitem open="0" type="813" id="ut7lK1FhbqhoA"/>
+      <listitem open="0" type="813" id="u3mDvT6qFaCIl"/>
+      <listitem open="0" type="813" id="uGgO4CxdnVyBv"/>
+      <listitem open="0" type="813" id="ufMv4vrf7UVPX"/>
+      <listitem open="0" type="813" id="uKnr8pQqJoeQ4"/>
+      <listitem open="0" type="813" id="uUFb4FlCa0I0I"/>
+      <listitem open="0" type="813" id="ustYfHFYMHBwV"/>
+      <listitem open="0" type="813" id="uSZ8KYvnzo384"/>
+      <listitem open="0" type="813" id="uEOHrcGHCeJQG"/>
+      <listitem open="0" type="813" id="ud3sSMkngyS1b"/>
+      <listitem open="0" type="813" id="ubStcO8J5uDlH"/>
+      <listitem open="0" type="813" id="unXNkD62RiDdU"/>
+      <listitem open="0" type="813" id="u7HeCzPu7v0fc"/>
+      <listitem open="0" type="813" id="uUxlTGT9rKsUK"/>
+      <listitem open="0" type="813" id="uoR4UJIJfxIqQ"/>
+      <listitem open="0" type="813" id="uEN7fHHCG3WkC"/>
+      <listitem open="0" type="813" id="uxMzUGJ89MYSg"/>
+      <listitem open="0" type="813" id="uJ1OlH7q279Ni"/>
+      <listitem open="0" type="813" id="ufaBAWx4BXFFx"/>
+      <listitem open="0" type="813" id="uscv9uVPm32JL"/>
+      <listitem open="0" type="813" id="uLLIMA1gm1ztK"/>
+      <listitem open="0" type="813" id="u2augb1gOhNWs"/>
+      <listitem open="0" type="813" id="u1Z4Gn8NETNTH"/>
+      <listitem open="0" type="813" id="uh7r1QI3BNGVK"/>
+      <listitem open="0" type="813" id="urmv1CMpvrKxN"/>
+      <listitem open="0" type="813" id="uQrd0qlsR08pU"/>
+      <listitem open="0" type="813" id="ui53SgrCfmkIo"/>
+      <listitem open="0" type="813" id="uyQ5Jhg5Tr97h"/>
+     </listitem>
+     <listitem open="0" type="813" id="u2ecND4wQZ3Tq">
+      <listitem open="0" type="815" id="u2oLYYJIXF9Uq"/>
+      <listitem open="0" type="815" id="ussD2JelCeDah"/>
+      <listitem open="0" type="815" id="uNbbS4o5pRd5O"/>
+      <listitem open="0" type="815" id="uO3H5rS5SK8mj"/>
+      <listitem open="0" type="815" id="u75XXwKwum0q5"/>
+      <listitem open="0" type="815" id="u1EZdwbRdOfgP"/>
+      <listitem open="0" type="815" id="ukEeFK10hVzvY"/>
+      <listitem open="0" type="815" id="utAuXAt2rbIOv"/>
+      <listitem open="0" type="815" id="u7XZVpusoXqCJ"/>
+      <listitem open="0" type="815" id="ulMNjblFxcIcM"/>
+      <listitem open="0" type="815" id="uK96rOMFtRkjq"/>
+      <listitem open="0" type="815" id="uxbzm16r6xMZ0"/>
+      <listitem open="0" type="815" id="ulZkWj28anJrB"/>
+      <listitem open="0" type="815" id="uzcCIhqkAvSH6"/>
+      <listitem open="0" type="815" id="uMSyEwFGP8kBk"/>
+      <listitem open="0" type="814" id="uiusH7jedFKLM"/>
+      <listitem open="0" type="814" id="uvJ2cELUU7vie"/>
+      <listitem open="0" type="814" id="uP8dbKpTCc4gT"/>
+      <listitem open="0" type="814" id="uegGVEXrTzVub"/>
+      <listitem open="0" type="814" id="ulKysySx72jC5"/>
+      <listitem open="0" type="814" id="u4u78njM0L1Yt"/>
+      <listitem open="0" type="814" id="u3QC0g66rqnDR"/>
+      <listitem open="0" type="814" id="ulDDxxsIsayPn"/>
+      <listitem open="0" type="814" id="uXmBuFpBK1WAQ"/>
+      <listitem open="0" type="814" id="ud9PbP2SLY5D1"/>
+     </listitem>
+     <listitem open="0" type="813" id="u2b0Wz8HwojoT">
+      <listitem open="0" type="814" id="uVeqSnBNY6jah"/>
+      <listitem open="0" type="814" id="uDRkIV4RAHaQ0"/>
+      <listitem open="0" type="815" id="ufOd0Kw4DoIJG"/>
+      <listitem open="0" type="815" id="uxrJ4fYsJXzW1"/>
+      <listitem open="0" type="815" id="upNUBiE1Cf394"/>
+      <listitem open="0" type="815" id="u5Z5BvCRTPg9b"/>
+      <listitem open="0" type="815" id="u1MVU37UkH3le"/>
+      <listitem open="0" type="815" id="uixDRJ7iXhZKZ"/>
+      <listitem open="0" type="815" id="uHN0xjaEV6Csf"/>
+      <listitem open="0" type="815" id="ucD292Ip167fG"/>
+      <listitem open="0" type="814" id="uaUy3vw9AhrXj"/>
+      <listitem open="0" type="814" id="uF4Z7qKXACBVs"/>
+      <listitem open="0" type="815" id="ukj4UPoAatwVH"/>
+      <listitem open="0" type="815" id="uPdaEtfnC1w0j"/>
+      <listitem open="0" type="815" id="uVihaXyrVFX65"/>
+      <listitem open="0" type="815" id="u15xAdQqe9z0l"/>
+      <listitem open="0" type="815" id="utnOOD8cHlUXT"/>
+      <listitem open="0" type="815" id="uq9cZ3Bv7NDuC"/>
+      <listitem open="0" type="815" id="uigE2rcaY5eHG"/>
+      <listitem open="0" type="814" id="usyqZzeezlP6Q"/>
+      <listitem open="0" type="814" id="ue2GRhGFr3P9a"/>
+      <listitem open="0" type="814" id="uYL0mTiYCXcMM"/>
+      <listitem open="0" type="814" id="uCaGvwM0syhLo"/>
+      <listitem open="0" type="814" id="uN4y4nIpsUTSV"/>
+      <listitem open="0" type="814" id="u0EHe91Y1XqZg"/>
+      <listitem open="0" type="814" id="uRq6KY8WVSYhy"/>
+     </listitem>
+     <listitem open="0" type="807" id="urWRPrlmQEe2M" label="Відділ кадрів"/>
+     <listitem open="1" type="813" id="u3J26EotYGcTO">
+      <listitem open="0" type="814" id="udDX33EsVHKxX"/>
+      <listitem open="0" type="815" id="ungbPUtZxxiZ2"/>
+      <listitem open="0" type="815" id="uLLhRVm3LUArT"/>
+      <listitem open="0" type="815" id="u6ThemNfoxadw"/>
+      <listitem open="0" type="815" id="uK4Q8O6aw5yRk"/>
+      <listitem open="0" type="815" id="ufZI8JMIkHs0T"/>
+      <listitem open="0" type="814" id="uOsfNdJm6Lr6M"/>
+      <listitem open="0" type="815" id="u1xCR0azr4q99"/>
+      <listitem open="0" type="815" id="uE67LdkVC66ah"/>
+      <listitem open="0" type="815" id="uqQaL4LirdVEx"/>
+      <listitem open="0" type="815" id="uC8PuzrXAyfLz"/>
+      <listitem open="0" type="814" id="uSX4xQ9l5Zg7f"/>
+      <listitem open="0" type="814" id="uTDicFTxE0ZRQ"/>
+      <listitem open="0" type="814" id="uRshEaX6qAPWh"/>
+      <listitem open="0" type="814" id="uljY4F9SRjqE4"/>
+     </listitem>
+     <listitem open="0" type="813" id="uG54I1LkC9YWS">
+      <listitem open="0" type="815" id="udcHQDDbzFzen"/>
+      <listitem open="0" type="815" id="u2wEhYqxhz9PK"/>
+      <listitem open="0" type="815" id="uCim1L7UMZEVF"/>
+      <listitem open="0" type="815" id="uGmt9d5ncaCX8"/>
+      <listitem open="0" type="815" id="u7DbuyDAV1Ztd"/>
+      <listitem open="0" type="815" id="uH1jIMlfn5X6P"/>
+      <listitem open="0" type="815" id="uuRiCPBL4SOfi"/>
+      <listitem open="0" type="815" id="uUhBdtSa9KHp1"/>
+      <listitem open="0" type="815" id="uios6A45YzKPk"/>
+      <listitem open="0" type="815" id="uR3j7KcEdHUtU"/>
+      <listitem open="0" type="815" id="uAO2R3ehmon5b"/>
+      <listitem open="0" type="815" id="umpyYyNTe8KsY"/>
+      <listitem open="0" type="815" id="u1FRG6ZdKvxLX"/>
+      <listitem open="0" type="815" id="uYEH2SERZ9N6f"/>
+      <listitem open="0" type="814" id="uiXqcJ7jDFj0u"/>
+      <listitem open="0" type="814" id="uEP9zQhG0IRU5"/>
+      <listitem open="0" type="815" id="uh0I2qRCPo0b9"/>
+      <listitem open="0" type="814" id="uMueEwvXehmSE"/>
+      <listitem open="0" type="814" id="uVWBjDhBRRQrD"/>
+      <listitem open="0" type="814" id="uMwDgVD7XgX97"/>
+      <listitem open="0" type="814" id="ukpYmKSl3iEVH"/>
+      <listitem open="0" type="814" id="u93ER4reS7noW"/>
+      <listitem open="0" type="814" id="uUMAXaeTVkbW9"/>
+      <listitem open="0" type="814" id="u58elfTNr6pbt"/>
+      <listitem open="0" type="814" id="uLzZICsZWoxzF"/>
+     </listitem>
+     <listitem open="0" type="807" id="uzmONq4pTgMp6" label="Замовлення на виклик лікаря"/>
+     <listitem open="0" type="813" id="uGuMuNMRCpC0t">
+      <listitem open="0" type="815" id="uRzgliuu3N7gW"/>
+      <listitem open="0" type="815" id="uvJbNYrYQQBGe"/>
+      <listitem open="0" type="815" id="unBTmM0uHwTZq"/>
+      <listitem open="0" type="815" id="uEDMovoGEDlxJ"/>
+      <listitem open="0" type="815" id="uosWNttrfpQ9p"/>
+      <listitem open="0" type="815" id="uIfRy01up3NVM"/>
+      <listitem open="0" type="815" id="uKjcsV41ZKaQD"/>
+      <listitem open="0" type="815" id="uQNhflEeDT1Hf"/>
+      <listitem open="0" type="815" id="ueg0rXwrAFoiE"/>
+      <listitem open="0" type="815" id="uIk51IqPMds8d"/>
+      <listitem open="0" type="815" id="uinSLj0m5EfmT"/>
+      <listitem open="0" type="815" id="uMRJPe4eqLbSR"/>
+      <listitem open="0" type="814" id="uVty6FfkYrMbp"/>
+      <listitem open="0" type="815" id="ugYaNH1u44Evp"/>
+      <listitem open="0" type="814" id="uXE3ZDtlutoot"/>
+      <listitem open="0" type="814" id="uyIHPHYjYask8"/>
+      <listitem open="0" type="814" id="ulBU8mQsl7CTe"/>
+      <listitem open="0" type="814" id="uLbE08Xmbk9xm"/>
+      <listitem open="0" type="814" id="uQ7jGyNXsiGez"/>
+     </listitem>
+     <listitem open="1" type="813" id="uvrf5FYdhlWlN">
+      <listitem open="0" type="815" id="uxoUYAT6YP51K"/>
+      <listitem open="0" type="815" id="uxoy6SaVUaTfe"/>
+      <listitem open="0" type="815" id="uVDSOsimqu1XO"/>
+      <listitem open="0" type="815" id="uV8eQNg27nISp"/>
+      <listitem open="0" type="815" id="ui6SIENBxFyuM"/>
+      <listitem open="0" type="815" id="uIgPBmK6iRRwn"/>
+      <listitem open="0" type="815" id="uV4Mqx5UrGtB0"/>
+      <listitem open="0" type="814" id="utAsnPFRsj1js"/>
+      <listitem open="0" type="814" id="u7rLHKktlBg4t"/>
+      <listitem open="0" type="814" id="u9lWIdCx9bpoB"/>
+      <listitem open="0" type="814" id="uWJhp138TCMgy"/>
+     </listitem>
+     <listitem open="0" type="813" id="uIRczhkXNZldd">
+      <listitem open="0" type="815" id="uNLqGLRAunxHb"/>
+      <listitem open="0" type="815" id="uA3GitTqSKpIG"/>
+      <listitem open="0" type="815" id="uA4CFu0AC5AHO"/>
+      <listitem open="0" type="815" id="uPzLNgx7Y1sUy"/>
+      <listitem open="0" type="815" id="uaISwRYCdAYxp"/>
+      <listitem open="0" type="815" id="u6HxALh8qRBg1"/>
+      <listitem open="0" type="815" id="unzata9pj5J2k"/>
+      <listitem open="0" type="815" id="uHWmQBG6vxg9Z"/>
+      <listitem open="0" type="815" id="uY2PqlAcJcH9x"/>
+      <listitem open="0" type="815" id="uERk4LwH0I6NN"/>
+      <listitem open="0" type="815" id="uGyfNwWZT4Fv9"/>
+      <listitem open="0" type="815" id="ulbSAu59BZkdQ"/>
+      <listitem open="0" type="814" id="urEFbWy5FgzPo"/>
+      <listitem open="0" type="815" id="uPl3cAilU3tRt"/>
+      <listitem open="0" type="814" id="uBJWlyiuKhFKH"/>
+      <listitem open="0" type="814" id="uuc5LcWWDa8XT"/>
+      <listitem open="0" type="814" id="uQ5AZldVyf2g2"/>
+      <listitem open="0" type="814" id="uTB49bTQ9Lyqp"/>
+      <listitem open="0" type="814" id="uEtMoqgrvUOAi"/>
+      <listitem open="0" type="814" id="uaIqEWNonXGUf"/>
+      <listitem open="0" type="814" id="uqWbp0eqn2OK1"/>
+      <listitem open="0" type="814" id="u4KqEbbmmtkKq"/>
+     </listitem>
+     <listitem open="0" type="813" id="u4Sgi9EVVHf9X">
+      <listitem open="0" type="814" id="upF1mW6mmVGbx"/>
+      <listitem open="0" type="815" id="uUd8KVeyspVlq"/>
+      <listitem open="0" type="815" id="u7qKcllFMEvLM"/>
+      <listitem open="0" type="815" id="uSkZgKmfdisix"/>
+      <listitem open="0" type="815" id="uRiEJhFFvKOwt"/>
+      <listitem open="0" type="815" id="uvETwVg1eTFMy"/>
+      <listitem open="0" type="815" id="uBdgO866uzSoa"/>
+      <listitem open="0" type="815" id="uIov7M9hhbP5f"/>
+      <listitem open="0" type="815" id="u94E4G8zGyTIA"/>
+      <listitem open="0" type="815" id="uRnRXuuL7GVAS"/>
+      <listitem open="0" type="815" id="uMekLG2WHYw5a"/>
+      <listitem open="0" type="814" id="uxhdNq6sY1zDN"/>
+      <listitem open="0" type="815" id="upYicxQr9J1si"/>
+      <listitem open="0" type="815" id="usdiLt5OFwnF3"/>
+      <listitem open="0" type="815" id="uc2C6jxoSNZpj"/>
+      <listitem open="0" type="815" id="uAZGMjFzuYrAk"/>
+      <listitem open="0" type="815" id="uSQqVrUzlcxMh"/>
+      <listitem open="0" type="815" id="uCvp6ARHhuThY"/>
+      <listitem open="0" type="815" id="uJJLHhR45quVz"/>
+      <listitem open="0" type="815" id="uIPYUGz5SL1hl"/>
+      <listitem open="0" type="814" id="u431h26rf5FVq"/>
+      <listitem open="0" type="814" id="uAfW2tqrKHfdr"/>
+      <listitem open="0" type="814" id="ut2m38rmZfhjq"/>
+      <listitem open="0" type="814" id="uJx4gGpgE3mEr"/>
+      <listitem open="0" type="814" id="umWfduAgjxM3y"/>
+      <listitem open="0" type="814" id="ukyOKL2WVYvCV"/>
+      <listitem open="0" type="814" id="uByFjFFvM3ULz"/>
+      <listitem open="0" type="815" id="uyzhuloS4K29M"/>
+      <listitem open="0" type="814" id="ulX85lUevRj5j"/>
+      <listitem open="0" type="814" id="uKliViuI6jMrj"/>
+      <listitem open="0" type="814" id="uw8l9qqJ4GFOU"/>
+      <listitem open="0" type="814" id="uqkdOSdPBgEbd"/>
+     </listitem>
+     <listitem open="0" type="813" id="uywgWQ2OtTlrL">
+      <listitem open="0" type="814" id="u5xGFOX4bO5UB"/>
+      <listitem open="0" type="815" id="uSBdsZzn6BGnO"/>
+      <listitem open="0" type="815" id="urgNxlF9y3Vcr"/>
+      <listitem open="0" type="815" id="uEVYr1gXjVbup"/>
+      <listitem open="0" type="815" id="uWNxjwfQD5gU7"/>
+      <listitem open="0" type="815" id="uZDT4EXcofqJ6"/>
+      <listitem open="0" type="815" id="uDlvv9G4plkYr"/>
+      <listitem open="0" type="815" id="uI1UJG6CL0RT6"/>
+      <listitem open="0" type="815" id="ubqGBJRomgxyC"/>
+      <listitem open="0" type="815" id="uYBDgwd84koiZ"/>
+      <listitem open="0" type="815" id="uOjOsMpHjtQ0Z"/>
+      <listitem open="0" type="814" id="um4qSsuEk3npM"/>
+      <listitem open="0" type="815" id="uZ2YzxBRvkZYf"/>
+      <listitem open="0" type="815" id="um5786aPZmc6K"/>
+      <listitem open="0" type="815" id="uTgHcQKoHTExc"/>
+      <listitem open="0" type="815" id="u03ASUJajeIEX"/>
+      <listitem open="0" type="815" id="uXtZIm8JMQGjP"/>
+      <listitem open="0" type="815" id="u7Wy7OvtwKVjy"/>
+      <listitem open="0" type="815" id="u79RCVFZQnPf9"/>
+      <listitem open="0" type="815" id="usHl0T0XUcEeo"/>
+      <listitem open="0" type="814" id="ubk9Da0pCpSaO"/>
+      <listitem open="0" type="814" id="u7tJc4kkFS6xx"/>
+      <listitem open="0" type="814" id="uoyR3ktc6Pf95"/>
+      <listitem open="0" type="814" id="uDpyIVOGDId3f"/>
+      <listitem open="0" type="814" id="u7K3sCuMGrmig"/>
+      <listitem open="0" type="815" id="uyn1C4uPqQ7IH"/>
+      <listitem open="0" type="814" id="uY6Yre892iOLJ"/>
+      <listitem open="0" type="814" id="ujqhC9YCeE9Be"/>
+      <listitem open="0" type="814" id="u7PmSm4BUj4WI"/>
+      <listitem open="0" type="814" id="uGkB7Bzz6v87A"/>
+      <listitem open="0" type="814" id="uUQurd04eqtq0"/>
+     </listitem>
+     <listitem open="0" type="807" id="ufea8gz6fVqM4" label="Покупка книжок через інтернет"/>
+     <listitem open="1" type="813" id="uoAR6KftLBFdR">
+      <listitem open="0" type="815" id="um3csyVV8k7gr"/>
+      <listitem open="0" type="815" id="u8AB6kNqhPIBr"/>
+      <listitem open="0" type="815" id="uHC5EV6SMqx2i"/>
+      <listitem open="0" type="815" id="u5O0tl8Vhkbss"/>
+      <listitem open="0" type="815" id="uFNo1cNM4EXf2"/>
+      <listitem open="0" type="815" id="uLY7E1JIYSOiX"/>
+      <listitem open="0" type="815" id="uaAW9NRCmQ1IE"/>
+      <listitem open="0" type="815" id="uo3gdVdKFoD2f"/>
+      <listitem open="0" type="815" id="uFvwJOUexJbGy"/>
+      <listitem open="0" type="815" id="uQyblGC6g0qos"/>
+      <listitem open="0" type="814" id="u3zy9u5eMIpUo"/>
+      <listitem open="0" type="814" id="uVnuhP1baI9eX"/>
+      <listitem open="0" type="814" id="umVEIfho5JLiY"/>
+      <listitem open="0" type="814" id="uvbr1fAtAwXfb"/>
+      <listitem open="0" type="814" id="uL38laStBbeLG"/>
+      <listitem open="0" type="814" id="uFqwOAu01TTuw"/>
+      <listitem open="0" type="814" id="unYqK1T5skEwe"/>
+      <listitem open="0" type="814" id="u7bsUoInMX5ug"/>
+      <listitem open="0" type="815" id="ulufDm5e4AVO1"/>
+     </listitem>
+     <listitem open="0" type="813" id="uhA0xNsnRFuA9">
+      <listitem open="0" type="815" id="uFAjT0EYsxrhc"/>
+      <listitem open="0" type="815" id="uvSJRkorgehoj"/>
+      <listitem open="0" type="815" id="uuFKA7HKzmjYL"/>
+      <listitem open="0" type="815" id="uCnWLHL28PFeU"/>
+      <listitem open="0" type="815" id="uuQY0ykkRYHI6"/>
+      <listitem open="0" type="815" id="uHH44v1faBaud"/>
+      <listitem open="0" type="814" id="umVPhGaysqXRB"/>
+      <listitem open="0" type="814" id="upeE9nfPyqXJ5"/>
+      <listitem open="0" type="814" id="ucwzyYE2JAPyN"/>
+      <listitem open="0" type="815" id="uDW8K0jEcBnFO"/>
+     </listitem>
+     <listitem open="1" type="813" id="uZ99g6KpnCoJ4">
+      <listitem open="0" type="814" id="ubMRxASSQ06T2"/>
+      <listitem open="0" type="815" id="ub5OB7zgWzXLV"/>
+      <listitem open="0" type="815" id="urGOWL91WKAMc"/>
+      <listitem open="0" type="815" id="u5JzDgd5UiCW1"/>
+      <listitem open="0" type="815" id="usSC6SZtm3vUx"/>
+      <listitem open="0" type="815" id="ue8Y7ewn1mwqU"/>
+      <listitem open="0" type="815" id="usvGkac1vPG6D"/>
+      <listitem open="0" type="815" id="uxC14r1fgj4bX"/>
+      <listitem open="0" type="815" id="utXfjh49TgacT"/>
+      <listitem open="0" type="815" id="uOidEPXbBjqDp"/>
+      <listitem open="0" type="815" id="uRu8HpJ00C7fB"/>
+      <listitem open="0" type="815" id="u8RWTHMWOEnqo"/>
+      <listitem open="0" type="815" id="uYKOHrk5MbR1M"/>
+      <listitem open="0" type="814" id="uu1OMqogLTlvu"/>
+      <listitem open="0" type="815" id="u6FKuEEvBd8Jt"/>
+      <listitem open="0" type="815" id="ullhAjuWDqDek"/>
+      <listitem open="0" type="815" id="uJ81KcmA5nTYw"/>
+      <listitem open="0" type="815" id="usW8wKzvGNO01"/>
+      <listitem open="0" type="815" id="uD5CPceAKK2lA"/>
+      <listitem open="0" type="815" id="uULYHOlWErApx"/>
+      <listitem open="0" type="815" id="umjrTuQHSfAXV"/>
+      <listitem open="0" type="815" id="uR9R6fEpcoJRq"/>
+      <listitem open="0" type="815" id="uqysQVkNJLhFY"/>
+      <listitem open="0" type="815" id="uhMpPmzFJf4pr"/>
+      <listitem open="0" type="814" id="uue3b05UX282T"/>
+      <listitem open="0" type="814" id="uefT26idwx5GP"/>
+      <listitem open="0" type="814" id="u1xPEB1mA3S2o"/>
+      <listitem open="0" type="814" id="uznuzWWGXSEMT"/>
+      <listitem open="0" type="814" id="uFt5D7XkDxFgv"/>
+      <listitem open="0" type="814" id="ubLAfLKmCRqaO"/>
+      <listitem open="0" type="814" id="uro6NiSmz2snW"/>
+      <listitem open="0" type="814" id="uvyFCIljRzAdN"/>
+      <listitem open="0" type="814" id="uZ8ASx3JYISnf"/>
+      <listitem open="0" type="814" id="uZHlcMkjjgdku"/>
+      <listitem open="0" type="814" id="uhBNfI81cEIOs"/>
+      <listitem open="0" type="814" id="u9V5vL7NN6aMa"/>
+      <listitem open="0" type="814" id="uKSYToh6LePwU"/>
+      <listitem open="0" type="814" id="uahFIz52Vg8Qo"/>
+      <listitem open="0" type="814" id="uXTUgxzwKkDgX"/>
+      <listitem open="0" type="815" id="u1ntvVuvJvoYc"/>
+     </listitem>
+    </listitem>
+    <listitem open="1" type="802" id="Use_Case_View"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="C++"/>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>
