@@ -1,0 +1,14 @@
+ОСНОВИ ПРОГРАМНОЇ ІНЖЕНЕРІЇ Екзамен 
+посилання на Гугл-форму з тестовим завданням
+https://docs.google.com/forms/d/e/1FAIpQLScB579wC1l3R40jbG5QqU0cvRuGM3nlWjSo06J-0VqXmM_Btw/viewform?usp=sf_link
+Кількість запитань 32
+Оцінка = кількість балів / 2
+Задача максимальна кількість балів-24
+Максимальна оцінка - 40 балів
+Посилання на задачі
+https://github.com/omc-college/ipz4-Software-Engineering/tree/master/Exam
+
+Рішення надсилати на вдресу
+t.i.lumpova@gmail.com
+
+Тести та рвшення задач припиняють прийматся до 10-30  
